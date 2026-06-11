@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_canning": {
+      "type": "multirow",
+      "blocks": {
+        "row_about": {
+          "type": "row",
+          "settings": {
+            "caption": "About",
+            "heading": "Homemade Preserves",
+            "text": "<p>Handmade jams, chutneys, pickles and preserves made to order. Whether it's a gift, wedding favour, or just a personal stash — we make it fresh for you.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_offer": {
+          "type": "row",
+          "settings": {
+            "caption": "What We Offer",
+            "heading": "Our Preserves",
+            "text": "<p>Jams &amp; marmalades<br>Chutneys &amp; pickles<br>Flavoured honeys &amp; syrups<br>Custom labelling available<br><br>All made in small batches using fresh ingredients.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_quote": {
+          "type": "row",
+          "settings": {
+            "caption": "Get a Quote",
+            "heading": "Request a Quote",
+            "text": "<p>Email Charliebthomas@icloud.com with what you're after — flavour, quantity, and any custom labelling requests. We'll get back to you with a price.</p>",
+            "button_label": "Email for a Quote",
+            "button_link": "mailto:Charliebthomas@icloud.com"
+          }
+        }
+      },
+      "block_order": ["row_about", "row_offer", "row_quote"],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": ["main", "multirow_canning"]
+}

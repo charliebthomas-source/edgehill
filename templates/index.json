@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "image_banner_mdVcA9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Wb8q4J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made Properly in the UK.",
+            "heading_size": "h1"
+          }
+        },
+        "text_iVAnRa": {
+          "type": "text",
+          "settings": {
+            "text": "Handmade beanies, cane chair restoration, and custom lithophanes — one maker, three crafts, no shortcuts.",
+            "text_style": "body"
+          }
+        },
+        "buttons_4Y6rL7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Beanies",
+            "button_link_1": "shopify://collections/reversible-wooly-beanie-collection-handmade",
+            "button_style_secondary_1": false,
+            "button_label_2": "Get a Free Quote",
+            "button_link_2": "shopify://pages/cane",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wb8q4J",
+        "text_iVAnRa",
+        "buttons_4Y6rL7"
+      ],
+      "custom_css": [
+        "p {width: 500px;}",
+        ".button--primary {background-color: #e2b659;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC01194.jpg",
+        "image_2": "shopify://shop_images/4DB8F7F2-8453-4F48-AFEB-65F271FB36D3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "trust_bar": {
+      "type": "rich-text",
+      "blocks": {
+        "trust_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\u2714 Handmade in the UK \u00b7 \u2714 One-person craftsmanship \u00b7 \u2714 Custom orders welcome \u00b7 \u2714 Quality materials throughout \u00b7 \u2714 Personal customer service \u00b7 \u2714 Secure checkout</p>"
+          }
+        }
+      },
+      "block_order": [
+        "trust_text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "craft_categories": {
+      "type": "multicolumn",
+      "blocks": {
+        "col_beanies": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC01112.jpg",
+            "title": "Handmade Beanies",
+            "text": "<p>Warm, reversible, and genuinely handmade. Every beanie knitted one at a time. From \u00a315.</p>",
+            "link_label": "Shop Beanies",
+            "link": "shopify://pages/beanies"
+          }
+        },
+        "col_cane": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg",
+            "title": "Cane Chair Restoration",
+            "text": "<p>Traditional hand-weaving to restore cherished chairs strand by strand. From \u00a330.</p>",
+            "link_label": "Get a Free Quote",
+            "link": "shopify://pages/cane"
+          }
+        },
+        "col_litho": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5909.jpg",
+            "title": "Custom Lithophanes",
+            "text": "<p>Your photo transformed into a glowing 3D-printed keepsake. From \u00a312.</p>",
+            "link_label": "Create Yours",
+            "link": "shopify://pages/custom-lithophane"
+          }
+        }
+      },
+      "block_order": [
+        "col_beanies",
+        "col_cane",
+        "col_litho"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info a {display: inline-flex; padding: 1.2rem 2.4rem; background: rgb(var(--color-button)); color: rgb(var(--color-button-text)); border: 0.1rem solid rgb(var(--color-button)); border-radius: var(--buttons-radius-outset); font-size: 1.4rem; font-weight: 500; letter-spacing: 0.07em; text-decoration: none; margin-top: 1.2rem;}",
+        ".multicolumn-card__info a:hover {opacity: 0.85;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_tK6Xqt": {
+      "type": "multirow",
+      "blocks": {
+        "row_W7XtTJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg",
+            "caption": "Traditional Craft \u00b7 Restored by Hand \u00b7 From \u00a330",
+            "heading": "Cane Chair Restoration",
+            "text": "<p>Got a cherished chair with a sagging or broken cane seat? It can be saved. Using traditional hand-weaving techniques, each seat is recaned strand by strand \u2014 restoring it to its original strength and appearance without replacing the chair.</p><p>Heirloom dining chairs, Victorian nursing chairs, vintage market finds \u2014 if the frame is sound, the seat can be restored. A proper repair lasts decades. Free quotes via email with no obligation.</p>",
+            "button_label": "Request a Free Quote",
+            "button_link": "shopify://pages/cane"
+          }
+        },
+        "row_R8ag74": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC01112.jpg",
+            "caption": "Handknitted in the UK \u00b7 Reversible \u00b7 From \u00a315",
+            "heading": "Handmade Wooly Beanies",
+            "text": "<p>Warm, cosy, and genuinely handmade \u2014 every beanie is knitted using premium wool blends, one at a time. Reversible designs give you two colourways in a single hat, and each one is made to last rather than fall apart after a season.</p><p>A practical gift that actually feels considered. From \u00a315.</p>",
+            "button_label": "Shop Beanies",
+            "button_link": "shopify://pages/beanies"
+          }
+        },
+        "row_AkxGCy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5883.jpg",
+            "caption": "3D Printed \u00b7 Personalised \u00b7 From \u00a312",
+            "heading": "Custom Lithophane Prints",
+            "text": "<p>A lithophane is a 3D-printed tile that reveals your photograph in glowing detail when held up to the light. What looks like a plain white panel transforms into a portrait, landscape, or memory \u2014 it has to be seen to be believed. From \u00a312.</p>",
+            "button_label": "Create Yours",
+            "button_link": "shopify://pages/custom-lithophane"
+          }
+        }
+      },
+      "block_order": [
+        "row_W7XtTJ",
+        "row_R8ag74",
+        "row_AkxGCy"
+      ],
+      "custom_css": [
+        "section {}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "meet_the_maker": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_maker": {
+          "type": "caption",
+          "settings": {
+            "caption": "One Maker \u00b7 Three Crafts \u00b7 Made Properly",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_maker": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the Maker",
+            "heading_size": "h1"
+          }
+        },
+        "text_maker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hi, I\u2019m Charlie \u2014 every item you see here is made, restored or finished by me, by hand. Whether I\u2019m weaving a cane chair seat, knitting a beanie, or printing a lithophane on my 3D printer, the same principle applies: do it properly or don\u2019t do it at all.</p><p>If you have a question, want to discuss a custom order, or need a quote for a chair, email me directly: Charliebthomas@icloud.com. You\u2019ll get a reply from me, not a bot.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_maker": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Touch",
+            "button_link": "mailto:Charliebthomas@icloud.com?subject=Get%20in%20Touch",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_maker",
+        "heading_maker",
+        "text_maker",
+        "button_maker"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9250.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "1778605362e8298670": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner_mdVcA9",
+    "trust_bar",
+    "craft_categories",
+    "multirow_tK6Xqt",
+    "meet_the_maker",
+    "1778605362e8298670"
+  ]
+}
