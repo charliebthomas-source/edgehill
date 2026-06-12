@@ -458,6 +458,59 @@ fieldset.product-form__input input[type='radio'] + label {
   box-shadow: 0 0 0 0.2rem rgb(var(--ek-brass));
 }
 
+/* ---------- Cart (restyle only — no logic touched) ---------- */
+.cart__items,
+.cart-items {
+  font-size: 1.5rem;
+}
+.cart-item__name {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.cart__checkout-button,
+.cart__dynamic-checkout-buttons .shopify-payment-button__button {
+  font-weight: 600;
+}
+.totals__total-value,
+.totals__total {
+  font-weight: 700;
+}
+
+/* Cart notification popup: calmer card, clear hierarchy */
+.cart-notification {
+  border-radius: var(--ek-radius);
+}
+.cart-notification__heading,
+.cart-notification-product__name {
+  font-weight: 600;
+}
+
+/* Free-shipping progress bar -> brass accent (warm, not alarmist) */
+.cart-free-shipping__bar,
+.progress-bar,
+cart-free-shipping .progress {
+  border-radius: 999px;
+  overflow: hidden;
+}
+.cart-free-shipping__bar-progress,
+.progress-bar__value,
+cart-free-shipping .progress span {
+  background-color: rgb(var(--ek-brass));
+}
+
+/* Empty cart: an invitation to act, not a dead end */
+.cart__empty-text {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+}
+
+/* Quantity stepper: 44px targets */
+.quantity__button,
+.cart-item .quantity__button {
+  min-width: 4rem;
+  min-height: 4rem;
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
