@@ -169,6 +169,83 @@ a.link--text {
   border-radius: var(--ek-radius);
 }
 
+/* ---------- Header & navigation ---------- */
+.header {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.header__heading-logo,
+.header__heading-link .h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Inline nav: quiet labels, animated underline that reads as craft precision */
+.header__menu-item.list-menu__item {
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.005em;
+}
+
+.header__inline-menu .header__menu-item span {
+  position: relative;
+  padding-bottom: 0.3rem;
+}
+.header__inline-menu .header__menu-item span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.15rem;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s var(--ek-ease);
+}
+.header__inline-menu .header__menu-item:hover span::after,
+.header__inline-menu .header__active-menu-item span::after {
+  transform: scaleX(1);
+}
+.header__active-menu-item {
+  text-decoration: none;
+}
+
+/* Header icons: consistent 44px tap targets */
+.header__icon,
+.header__icon--cart,
+.header__icon--account {
+  min-width: 4.4rem;
+  min-height: 4.4rem;
+}
+
+/* Sticky header: subtle hairline + blur instead of a hard shadow */
+.shopify-section-header-sticky.scrolled-past-header,
+.shopify-section-group-header-group.shopify-section-header-sticky {
+  box-shadow: 0 0.1rem 0 rgba(var(--ek-ink), 0.08);
+}
+
+/* Mobile menu drawer: calmer spacing, larger touch rows */
+.menu-drawer__menu-item {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.4rem 0;
+  letter-spacing: -0.01em;
+}
+.menu-drawer {
+  padding-top: var(--ek-space-4);
+}
+
+/* ---------- Announcement bar: small, mono, calm (no urgency) ---------- */
+.announcement-bar__message {
+  font-family: var(--font-mono-family);
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  min-height: 3.6rem;
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
