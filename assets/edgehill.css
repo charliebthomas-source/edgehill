@@ -246,6 +246,55 @@ a.link--text {
   min-height: 3.6rem;
 }
 
+/* ---------- Homepage: hero ---------- */
+.banner__heading {
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+.banner--large:not(.banner--mobile-bottom) .banner__content {
+  align-items: flex-start;
+}
+.banner__text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* ---------- Eyebrows: captions become mono spec-labels ---------- */
+.multirow .caption,
+.image-with-text .caption,
+.rich-text .caption {
+  font-family: var(--font-mono-family);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  margin-bottom: var(--ek-space-3);
+}
+
+/* ---------- Product-line rows: roomy, calm ---------- */
+.multirow__item .row__text {
+  max-width: 44rem;
+}
+.multirow__item-labels > * + * {
+  margin-top: var(--ek-space-3);
+}
+
+/* ---------- Trust line: quiet mono reassurance, never shouty ----------
+   Targets the full-width rich-text band used on the homepage as a trust strip. */
+.rich-text--full-width .rich-text__text p {
+  font-family: var(--font-mono-family);
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/* ---------- "I make every one myself" story band ---------- */
+.image-with-text__heading {
+  letter-spacing: -0.02em;
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
