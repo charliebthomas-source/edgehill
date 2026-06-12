@@ -295,6 +295,73 @@ a.link--text {
   letter-spacing: -0.02em;
 }
 
+/* ---------- Product page ---------- */
+.product__title,
+.product__title h1,
+.product__title h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+@media screen and (min-width: 750px) {
+  .product__title,
+  .product__title h1,
+  .product__title h2 { font-size: 4rem; }
+}
+
+/* Vendor/eyebrow above the title -> mono spec label */
+.product__text.subtitle,
+.product__text.caption-with-letter-spacing,
+.product .product__text[class*="uppercase"] {
+  font-family: var(--font-mono-family);
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  opacity: 0.65;
+}
+
+.product__info-wrapper .price {
+  font-size: 2rem;
+}
+
+/* Variant pills: calm, tactile, clear selected state */
+.product-form__input .select__select,
+fieldset.product-form__input input[type='radio'] + label {
+  letter-spacing: 0.01em;
+}
+.product-variant-id + label,
+.product-form__input label {
+  min-height: 4.4rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Accordion / collapsible Materials–Care: quiet rows, clear affordance */
+.product__accordion .accordion__title,
+.accordion summary .h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.product__accordion details {
+  border-bottom: 0.1rem solid rgba(var(--ek-ink), 0.1);
+}
+.product__accordion summary {
+  padding: 1.6rem 0;
+}
+
+/* Gallery: consistent radius, no heavy frame */
+.product__media-item .media,
+.product__media-wrapper .media {
+  border-radius: var(--ek-radius);
+}
+
+/* Sticky mobile ATC: match button weight to the rest of the system */
+.sticky-atc__btn {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
