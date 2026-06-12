@@ -362,6 +362,61 @@ fieldset.product-form__input input[type='radio'] + label {
   font-size: 1.5rem !important;
 }
 
+/* ---------- Collection pages ---------- */
+.collection-hero__title,
+.collection .title-wrapper h1 {
+  font-size: 3.6rem;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 750px) {
+  .collection-hero__title,
+  .collection .title-wrapper h1 { font-size: 4.8rem; }
+}
+.collection-hero__description {
+  max-width: 60ch;
+  opacity: 0.8;
+}
+
+/* Card titles & price: scannable, calm */
+.card-information .card__heading a {
+  font-size: 1.6rem;
+}
+.product-grid .grid__item {
+  --shadow-opacity: 0;
+}
+
+/* Secondary image crossfade (reversible colourway reveal) */
+.card__media .media img.motion-reduce ~ img,
+.card .media > img:nth-child(2) {
+  transition: opacity 0.4s var(--ek-ease);
+}
+
+/* Quick-add button: quiet until hover, never shouting over the photo */
+.card__media + .quick-add,
+.quick-add__submit {
+  font-weight: 600;
+}
+
+/* Facets / filters: tidy, restrained */
+.facets__summary,
+.facets__heading,
+.active-facets__button-inner {
+  font-size: 1.4rem;
+}
+.facets__price,
+.facet-checkbox {
+  font-size: 1.4rem;
+}
+.facets-container .facets__label {
+  letter-spacing: 0.01em;
+}
+
+/* Pagination */
+.pagination__item {
+  min-width: 4.4rem;
+  min-height: 4.4rem;
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
