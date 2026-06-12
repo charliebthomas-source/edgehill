@@ -8,14 +8,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Stay in the loop",
-            "heading_size": "h1"
+            "heading": "Join the Edgehill list",
+            "heading_size": "h2"
           }
         },
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>New products, restocked beanies, and the occasional behind-the-scenes update from Edgehill Crafts. No spam, no filler.</p>"
+            "text": "<p>New beanies, restocks and the odd photo from the workshop. No spam — just me, now and then.</p>"
           }
         },
         "email_form": {
@@ -43,14 +43,41 @@
         "newsletter_heading": "Stay in the loop",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 0,
+        "padding_top": 48,
         "padding_bottom": 36
-      }
+      },
+      "blocks": {
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "shop": {
+          "type": "text",
+          "settings": {
+            "heading": "Shop",
+            "subtext": "<p><a href=\"/collections/reversible-wooly-beanie-collection-handmade\">Beanies</a><br><a href=\"/pages/custom-lithophane\">Lithophane lights</a><br><a href=\"/pages/cane\">Chair caning</a></p>"
+          }
+        },
+        "help": {
+          "type": "text",
+          "settings": {
+            "heading": "Help",
+            "subtext": "<p><a href=\"/pages/contact\">Contact</a><br><a href=\"mailto:Charliebthomas@icloud.com\">Charliebthomas@icloud.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand",
+        "shop",
+        "help"
+      ]
     }
   },
   "order": [

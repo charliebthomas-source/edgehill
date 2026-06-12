@@ -417,6 +417,47 @@ fieldset.product-form__input input[type='radio'] + label {
   min-height: 4.4rem;
 }
 
+/* ---------- Footer: calm, complete ---------- */
+.footer {
+  margin-top: 0;
+}
+.footer__content-top {
+  padding-bottom: var(--ek-space-12);
+}
+.footer-block__heading {
+  font-family: var(--font-mono-family);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: var(--ek-space-4);
+}
+.footer-block__details-content a,
+.footer__list-social a,
+.copyright__content a {
+  text-underline-offset: 0.3em;
+}
+.footer-block__details-content > p > a {
+  display: inline-block;
+  padding: 0.3rem 0;
+  opacity: 0.85;
+  transition: opacity 0.18s var(--ek-ease);
+}
+.footer-block__details-content > p > a:hover {
+  opacity: 1;
+}
+/* Payment + localisation: quiet, not a feature */
+.footer__payment .icon {
+  opacity: 0.85;
+}
+.footer__column--info .footer-block__newsletter {
+  margin-top: 0;
+}
+.newsletter-form__field-wrapper .field__input:focus {
+  box-shadow: 0 0 0 0.2rem rgb(var(--ek-brass));
+}
+
 /* ---------- Reduced motion: honour it everywhere ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
