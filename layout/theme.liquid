@@ -257,6 +257,48 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+
+    {%- comment %} Edgehill Crafts — Maker's Bench design system {% endcomment -%}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+    {% style %}
+      :root,
+      .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5 {
+        --font-heading-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        --font-heading-style: normal;
+        --font-heading-weight: 600;
+        --font-body-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: 400;
+        --font-body-weight-bold: 600;
+      }
+      :root {
+        /* Maker's Bench mono — specs & numerals only */
+        --font-mono-family: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+        /* Spacing scale (4px base) */
+        --ek-space-1: 0.4rem;
+        --ek-space-2: 0.8rem;
+        --ek-space-3: 1.2rem;
+        --ek-space-4: 1.6rem;
+        --ek-space-6: 2.4rem;
+        --ek-space-8: 3.2rem;
+        --ek-space-12: 4.8rem;
+        --ek-space-16: 6.4rem;
+        --ek-space-24: 9.6rem;
+        --ek-space-32: 12.8rem;
+        /* Brand tokens */
+        --ek-green: 31, 74, 63;
+        --ek-ink: 33, 29, 26;
+        --ek-paper: 250, 248, 243;
+        --ek-oat: 239, 234, 224;
+        --ek-brass: 201, 162, 39;
+        --ek-radius: 0.4rem;
+        --ek-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+    {% endstyle %}
+    {{ 'edgehill.css' | asset_url | stylesheet_tag }}
+
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}
