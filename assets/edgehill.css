@@ -1,0 +1,187 @@
+/* =========================================================
+   Edgehill Crafts — "Maker's Bench" design system
+   Loaded after base.css so component overrides win on load order.
+   Tokens (fonts, palette, spacing) are defined inline in theme.liquid.
+   ========================================================= */
+
+/* ---------- Type scale (mobile-first, Apple-style hierarchy) ---------- */
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+h1, .h1 {
+  font-size: 3.6rem;
+}
+h2, .h2 {
+  font-size: 2.6rem;
+  letter-spacing: -0.015em;
+}
+h3, .h3 {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.ek-display {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (min-width: 750px) {
+  h1, .h1 { font-size: 5.6rem; }
+  h2, .h2 { font-size: 3.6rem; }
+  h3, .h3 { font-size: 2.4rem; }
+  .ek-display { font-size: 7.2rem; }
+}
+
+body {
+  line-height: 1.6;
+  letter-spacing: 0.002em;
+}
+
+/* ---------- Mono utility — specs & numerals only (the one "maker-tech" signature) ---------- */
+.ek-spec,
+.ek-eyebrow {
+  font-family: var(--font-mono-family);
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ek-eyebrow {
+  display: inline-block;
+  color: rgba(var(--color-foreground), 0.6);
+  margin-bottom: var(--ek-space-3);
+}
+
+/* ---------- Buttons: solid, confident, 44px tap target ---------- */
+.button,
+.shopify-challenge__button,
+.customer button,
+button.shopify-payment-button__button--unbranded {
+  min-height: 4.4rem;
+  padding: 0 2.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-size: 1.5rem;
+  transition: transform 0.18s var(--ek-ease), box-shadow 0.18s var(--ek-ease), opacity 0.18s var(--ek-ease);
+}
+
+.button:not([disabled]):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0.6rem 1.6rem rgba(var(--ek-ink), 0.16);
+}
+.button:not([disabled]):active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Secondary button reads as a quiet outline, not a second loud block */
+.button--secondary {
+  font-weight: 500;
+}
+
+/* ---------- Focus: always visible, never removed ---------- */
+.button:focus-visible,
+a:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+.shopify-section a:focus-visible {
+  outline: 0.2rem solid rgb(var(--ek-green));
+  outline-offset: 0.3rem;
+  box-shadow: none;
+}
+
+/* ---------- Cards: flat, calm, gentle hover ---------- */
+.card-wrapper,
+.product-card-wrapper {
+  --shadow-opacity: 0;
+}
+
+.card__media,
+.card .media {
+  overflow: hidden;
+  border-radius: var(--ek-radius);
+}
+
+.card__media img,
+.card .media img {
+  transition: transform 0.5s var(--ek-ease);
+}
+
+.card-wrapper:hover .card__media img,
+.product-card-wrapper:hover .card__media img {
+  transform: scale(1.04);
+}
+
+.card__heading,
+.card-information .card__heading {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card-information {
+  padding-top: var(--ek-space-3);
+}
+
+/* Price treatment — quiet, confident */
+.price {
+  font-weight: 600;
+}
+.price__sale .price-item--regular {
+  opacity: 0.55;
+}
+
+/* ---------- Section rhythm: generous whitespace ---------- */
+.shopify-section {
+  --section-pad-block: clamp(4.8rem, 9vw, 9.6rem);
+}
+
+/* ---------- Inputs ---------- */
+.field__input,
+.select__select,
+.customer input,
+.customer textarea {
+  font-size: 1.6rem;
+}
+.field__input:focus,
+.select__select:focus {
+  box-shadow: 0 0 0 0.1rem rgb(var(--ek-green));
+}
+
+/* ---------- Links ---------- */
+.link,
+a.link--text {
+  text-underline-offset: 0.3em;
+}
+
+/* ---------- Media radius consistency ---------- */
+.global-media-settings,
+.media {
+  border-radius: var(--ek-radius);
+}
+
+/* ---------- Reduced motion: honour it everywhere ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .card-wrapper:hover .card__media img,
+  .product-card-wrapper:hover .card__media img,
+  .button:not([disabled]):hover {
+    transform: none !important;
+  }
+}
