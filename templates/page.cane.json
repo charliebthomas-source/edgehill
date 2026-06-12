@@ -1,1 +1,121 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":36}},"multirow_tBQVmJ":{"type":"multirow","blocks":{"row_DP3BFk":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/4DB8F7F2-8453-4F48-AFEB-65F271FB36D3.jpg","caption":"Traditional Craft · Restored by Hand","heading":"The Art of Cane Chair Restoration","text":"<p>Cane chair restoration is one of Britain's oldest craft traditions — and one that's nearly disappeared from the high street. Every seat is re-woven by hand, strand by strand, using the same techniques that have been used for centuries.<\/p><p>Whether your chair has a few broken strands or needs a full re-cane from scratch, the result is a seat that's as strong and beautiful as the day it was made. Properly restored cane can last decades with basic care.<\/p>","button_label":"","button_link":""}},"row_6qgXj8":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg","caption":"Honest Timelines · No Shortcuts","heading":"What to Expect","text":"<p>A full re-cane is not a quick job — and it shouldn't be. Each hole is threaded individually, with the weave checked and tensioned throughout to ensure an even, durable result.<\/p><p>Current turnaround is approximately 4 weeks from receipt of the chair. This reflects the time the work actually takes, not an arbitrary wait — and it means every chair gets the attention it deserves. You'll receive updates throughout the process.<\/p>","button_label":"","button_link":""}},"row_mDhizy":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/4D424418-011A-4C63-81C6-F4EA9C0120B2.jpg","caption":"Transparent Pricing · No Surprises","heading":"How Pricing Works","text":"<p>Cane restoration is priced by complexity rather than by the hour — so you know what you're paying before any work begins. Prices start at £30 for small seats and £80 for larger, more intricate patterns.<\/p><p>To get an accurate quote, email a photo of the top and underside of your chair to Charliebthomas@icloud.com. Most quotes are returned within 48 hours. There's no obligation to proceed.<\/p>","button_label":"Request a Quote","button_link":"mailto:Charliebthomas@icloud.com"}}},"block_order":["row_DP3BFk","row_6qgXj8","row_mDhizy"],"name":"t:sections.multirow.presets.name","settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-left","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","row_color_scheme":"","padding_top":36,"padding_bottom":36}},"1780841307e8867fe5":{"type":"apps","blocks":{"forms_inline_Mn9EJD":{"type":"shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a","settings":{"form_id":"1020648","text_color":"#202020","button_background_color":"#202020","button_label_color":"#FFFFFF","links_color":"#1878B9","errors_color":"#E02229","text_alignment":"center","form_alignment":"center","padding_top":0,"padding_bottom":24,"padding_right":0,"padding_left":0}}},"block_order":["forms_inline_Mn9EJD"],"settings":{"include_margins":true}},"sh_before_after_image_2_Ex39P8":{"type":"sh-before-after-image-2","name":"SH: Before\/After image 2","settings":{"title":"See the Transformation","content":"<p>Slide to compare a worn, broken cane seat with the same chair fully restored. The weave is uniform, the tension even, and the result should last decades.<\/p>","btn_txt":"Request a Quote","btn_link":"mailto:Charliebthomas@icloud.com?subject=Get%20in%20Touch","btn_outline":false,"outline_btn_text_color":"#121212","border_radius":0,"text_align":"center","text_position":"middle","media_height":"medium","image_position":"left","before_after_text_position":"bottom","media_radius":20,"before_image":"shopify:\/\/shop_images\/IMG_3561.jpg","before_text":"Before","after_image":"shopify:\/\/shop_images\/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg","after_text":"After","heading_font_size":30,"content_font_size":16,"text_font_size":16,"bg_color":"#fff","heading_color":"#121212","content_color":"#121212","btn_bg_color":"#121212","btn_text_color":"#ffffff","btn_border_color":"#121212","btn_hover_bg_color":"#ffffff","btn_hover_text_color":"#121212","btn_hover_border_color":"#121212","outline_btn_shadow_color":"#606060","ba_button_bg_color":"#fff","ba_button_text_color":"#121212","sep_bg_color":"#fff","sep_arrow_color":"#121212","padding_top":40,"padding_bottom":40,"mob_padding_top":30,"mob_padding_bottom":30,"section_max_width":"1140"}}},"order":["main","multirow_tBQVmJ","1780841307e8867fe5","sh_before_after_image_2_Ex39P8"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_tBQVmJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_DP3BFk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4DB8F7F2-8453-4F48-AFEB-65F271FB36D3.jpg",
+            "caption": "Traditional Craft · Restored by Hand",
+            "heading": "The Art of Cane Chair Restoration",
+            "text": "<p>Cane chair restoration is one of Britain's oldest craft traditions — and one that's nearly disappeared from the high street. Every seat is re-woven by hand, strand by strand, using the same techniques that have been used for centuries.</p><p>Whether your chair has a few broken strands or needs a full re-cane from scratch, the result is a seat that's as strong and beautiful as the day it was made. Properly restored cane can last decades with basic care.</p>",
+            "button_label": "Get a quote",
+            "button_link": "mailto:Charliebthomas@icloud.com?subject=Chair%20caning%20quote&body=Hi%20Charlie%2C%0A%0AI%27d%20like%20a%20quote%20for%20a%20chair.%0A%0A-%20Type%20of%20chair%3A%0A-%20What%20needs%20doing%3A%0A-%20Rough%20size%2Fpattern%3A%0A%0A(Please%20attach%20a%20photo%20of%20the%20seat%20and%20the%20whole%20chair.)%0A%0AThanks!"
+          }
+        },
+        "row_6qgXj8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg",
+            "caption": "Honest Timelines · No Shortcuts",
+            "heading": "What to Expect",
+            "text": "<p>A full re-cane is not a quick job — and it shouldn't be. Each hole is threaded individually, with the weave checked and tensioned throughout to ensure an even, durable result.</p><p>Current turnaround is approximately 4 weeks from receipt of the chair. This reflects the time the work actually takes, not an arbitrary wait — and it means every chair gets the attention it deserves. You'll receive updates throughout the process.</p>",
+            "button_label": "Get a quote",
+            "button_link": "mailto:Charliebthomas@icloud.com?subject=Chair%20caning%20quote&body=Hi%20Charlie%2C%0A%0AI%27d%20like%20a%20quote%20for%20a%20chair.%0A%0A-%20Type%20of%20chair%3A%0A-%20What%20needs%20doing%3A%0A-%20Rough%20size%2Fpattern%3A%0A%0A(Please%20attach%20a%20photo%20of%20the%20seat%20and%20the%20whole%20chair.)%0A%0AThanks!"
+          }
+        },
+        "row_mDhizy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/4D424418-011A-4C63-81C6-F4EA9C0120B2.jpg",
+            "caption": "Transparent Pricing · No Surprises",
+            "heading": "How Pricing Works",
+            "text": "<p>Cane restoration is priced by complexity rather than by the hour — so you know what you're paying before any work begins. Prices start at £30 for small seats and £80 for larger, more intricate patterns.</p><p>To get an accurate quote, email a photo of the top and underside of your chair to Charliebthomas@icloud.com. Most quotes are returned within 48 hours. There's no obligation to proceed.</p>",
+            "button_label": "Get a quote",
+            "button_link": "mailto:Charliebthomas@icloud.com?subject=Chair%20caning%20quote&body=Hi%20Charlie%2C%0A%0AI%27d%20like%20a%20quote%20for%20a%20chair.%0A%0A-%20Type%20of%20chair%3A%0A-%20What%20needs%20doing%3A%0A-%20Rough%20size%2Fpattern%3A%0A%0A(Please%20attach%20a%20photo%20of%20the%20seat%20and%20the%20whole%20chair.)%0A%0AThanks!"
+          }
+        }
+      },
+      "block_order": [
+        "row_DP3BFk",
+        "row_6qgXj8",
+        "row_mDhizy"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "sh_before_after_image_2_Ex39P8": {
+      "type": "sh-before-after-image-2",
+      "name": "SH: Before/After image 2",
+      "settings": {
+        "title": "See the Transformation",
+        "content": "<p>Slide to compare a worn, broken cane seat with the same chair fully restored. The weave is uniform, the tension even, and the result should last decades.</p>",
+        "btn_txt": "Get a quote",
+        "btn_link": "mailto:Charliebthomas@icloud.com?subject=Chair%20caning%20quote&body=Hi%20Charlie%2C%0A%0AI%27d%20like%20a%20quote%20for%20a%20chair.%0A%0A-%20Type%20of%20chair%3A%0A-%20What%20needs%20doing%3A%0A-%20Rough%20size%2Fpattern%3A%0A%0A(Please%20attach%20a%20photo%20of%20the%20seat%20and%20the%20whole%20chair.)%0A%0AThanks!",
+        "btn_outline": false,
+        "outline_btn_text_color": "#121212",
+        "border_radius": 0,
+        "text_align": "center",
+        "text_position": "middle",
+        "media_height": "medium",
+        "image_position": "left",
+        "before_after_text_position": "bottom",
+        "media_radius": 20,
+        "before_image": "shopify://shop_images/IMG_3561.jpg",
+        "before_text": "Before",
+        "after_image": "shopify://shop_images/50B79282-B000-47C0-8E8E-33F13E84A9C8.jpg",
+        "after_text": "After",
+        "heading_font_size": 30,
+        "content_font_size": 16,
+        "text_font_size": 16,
+        "bg_color": "#fff",
+        "heading_color": "#121212",
+        "content_color": "#121212",
+        "btn_bg_color": "#121212",
+        "btn_text_color": "#ffffff",
+        "btn_border_color": "#121212",
+        "btn_hover_bg_color": "#ffffff",
+        "btn_hover_text_color": "#121212",
+        "btn_hover_border_color": "#121212",
+        "outline_btn_shadow_color": "#606060",
+        "ba_button_bg_color": "#fff",
+        "ba_button_text_color": "#121212",
+        "sep_bg_color": "#fff",
+        "sep_arrow_color": "#121212",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mob_padding_top": 30,
+        "mob_padding_bottom": 30,
+        "section_max_width": "1140"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_tBQVmJ",
+    "sh_before_after_image_2_Ex39P8"
+  ]
+}
